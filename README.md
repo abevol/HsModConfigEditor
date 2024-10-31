@@ -11,7 +11,7 @@
 
 ## 截屏预览
 
-![Preview](https://github.com/abevol/HsModConfigEditor/blob/main/Preview.png?raw=true)
+![Preview](https://github.com/abevol/HsModConfigEditor/blob/master/Preview.png?raw=true)
 
 ## 版权声明
 
