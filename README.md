@@ -10,6 +10,7 @@
 2. 进入全屏程序后，按 F5 键即可打开配置菜单。
 3. 初次运行时，程序会将 `HsMod.cfg` 的语言选项 `HsMod.Init.Language` 设置为当前系统语言。
 4. 如果你想修改为其它语言，请在菜单中选择（或者手动编辑 `HsMod.cfg`），然后重新运行 `HsModConfigEditor.exe`。
+5. 将修改后的配置文件 `HsMod.cfg` 复制到游戏目录下的 `BepInEx\config` 文件夹内。
 
 ## 截屏预览
 
