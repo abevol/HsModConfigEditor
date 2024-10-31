@@ -1,0 +1,71 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ProjectGuid>{4353F22A-2F95-49D7-A5E7-3E829BD8BF4B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>HsMod</RootNamespace>
+    <AssemblyName>HsMod</AssemblyName>
+    <TargetFramework>net472</TargetFramework>
+    <FileAlignment>512</FileAlignment>
+    <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="UnityEngine.Modules" Version="2021.3.11" IncludeAssets="compile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>BepInExCore\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx">
+      <HintPath>BepInExCore\BepInEx.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx.Harmony">
+      <HintPath>BepInExCore\BepInEx.Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx.Preloader">
+      <HintPath>BepInExCore\BepInEx.Preloader.dll</HintPath>
+    </Reference>
+    <Reference Include="HarmonyXInterop">
+      <HintPath>BepInExCore\HarmonyXInterop.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>BepInExCore\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Mdb">
+      <HintPath>BepInExCore\Mono.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Pdb">
+      <HintPath>BepInExCore\Mono.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Rocks">
+      <HintPath>BepInExCore\Mono.Cecil.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.RuntimeDetour">
+      <HintPath>BepInExCore\MonoMod.RuntimeDetour.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.Utils">
+      <HintPath>BepInExCore\MonoMod.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Languages\deDE.json" />
+    <EmbeddedResource Include="Languages\enGB.json" />
+    <EmbeddedResource Include="Languages\enUS.json" />
+    <EmbeddedResource Include="Languages\esES.json" />
+    <EmbeddedResource Include="Languages\esMX.json" />
+    <EmbeddedResource Include="Languages\frFR.json" />
+    <EmbeddedResource Include="Languages\itIT.json" />
+    <EmbeddedResource Include="Languages\jaJP.json" />
+    <EmbeddedResource Include="Languages\koKR.json" />
+    <EmbeddedResource Include="Languages\plPL.json" />
+    <EmbeddedResource Include="Languages\ptBR.json" />
+    <EmbeddedResource Include="Languages\ruRU.json" />
+    <EmbeddedResource Include="Languages\thTH.json" />
+    <EmbeddedResource Include="Languages\zhCN.json" />
+    <EmbeddedResource Include="Languages\zhTW.json" />
+  </ItemGroup>
+</Project>
