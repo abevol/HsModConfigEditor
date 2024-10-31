@@ -18,6 +18,7 @@
 5. 将修改后的配置文件 `HsMod.cfg` 复制到游戏目录下的 `BepInEx\config` 文件夹内。
 6. 或者通过 `mklink` 创建一个配置文件 `HsMod.cfg` 的符号链接，免去手动复制之苦。
 7. 命令示例：`mklink "D:\GameTools\HsModConfigEditor\BepInEx\config\HsMod.cfg" "D:\NetGame\Hearthstone\BepInEx\config\HsMod.cfg"`
+8. 执行此命令前需要确保第一个文件不存在（如果已存在请删除），第二个文件存在（可以创建一个空白文件，并命名为 `HsMod.cfg`）
 
 ## 截屏预览
 
