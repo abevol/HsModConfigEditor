@@ -1,6 +1,7 @@
 # HsMod Config Editor
 
 编写了一个空白游戏用于模拟加载 [HsMod] 和 [BepInExConfigManager]，以对 [HsMod] 的配置文件进行可视化编辑。
+本仓库中的 `HsMod` 源码已剥离了多余代码，仅保留了配置相关内容。
 
 ## 使用说明
 
